@@ -10,7 +10,7 @@ Boiler Plate for creating a python wrapper for a multifile c project
 ```pip install setuptools```
 5. Run ```python setup.py build_ext --inplace```
 6. Run the app ```python .\CmoduleTest.py```
-7. 
+
 
 
 
