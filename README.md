@@ -5,11 +5,12 @@ Boiler Plate for creating a python wrapper for a multifile c project
 2. Create Environment named venv
 ``` py -m venv venv\```
 3.  Activate the environment
-```
-PS C:\source_py\E2\Python-Calls-C-Example> venv\Scripts\activate
-(venv) PS C:\source_py\E2\Python-Calls-C-Example>
-```
-4. 
+```venv\Scripts\activate```
+4. install setup tools
+```pip install setuptools```
+5. Run ```python setup.py build_ext --inplace```
+6. Run the app ```python .\CmoduleTest.py```
+7. 
 
 
 
